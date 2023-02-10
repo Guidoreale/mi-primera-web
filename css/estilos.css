@@ -129,27 +129,24 @@ body{
     background-color: #f5e9e9;
 	min-width :100%;
     min-height: 500px;
-    max-height: 350px;
 	position:relative;
     display: grid;
     grid-auto-flow: column;
     --padding-container:0;
+    margin: 0px;
 }
 
 .quienes-somos-texto{
+    border: 2px solid yellow;
+    max-width: 75%;
     color:rgb(40, 133, 240);
     background-color: #f5e9e9;
-    min-height: 100%;
-	min-width :100%;
-    max-height: 100px;
-	position:relative;
-	margin-left:0;
-    top: 20%;
-	margin-right:50%;
-	left:0%; right:50%;
     text-align: center;
-    white-space: pre;
+    white-space: pre-line;
     font-size: xx-large;
+
+    padding-right: 0%;
+    padding-top: 55px;
 }
 
 .quienes-somos-titulo{
@@ -163,20 +160,13 @@ body{
     white-space: pre-line;
 }
 
+
 .qs-imagen{
+    background-image: url(/imagenes/taller.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;    
+    border: 2px solid salmon;
     width: 100%;
-	position:relative;
-	margin-right: 0%;
-    margin-left: auto;
-    margin-top: 0%;
-}
-.qs-imagen img{
-    height: 100%;
-    width: 100%;
-	position:relative;
-	margin-right: 0%;
-    margin-left: auto;
-    margin-top: 0%;
-    display: flex;
-    vertical-align: top;
+    padding-left: 0%;
 }
